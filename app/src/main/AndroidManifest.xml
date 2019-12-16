@@ -23,5 +23,18 @@
                     tools:ignore="GoogleAppIndexingWarning" />
             </intent-filter>
         </activity>
+
+        <activity
+            android:name=".ui.home.HomeActivity"
+            android:label="@string/title_activity_home" />
+
+        <activity
+            android:name=".ui.home.hotel.detail.HotelDetailActivity"/>
+        <activity
+            android:name=".ui.home.booking.BookingActivity"/>
+
+        <activity
+            android:name=".ui.settings.SettingsActivity"/>
+
     </application>
 </manifest>
