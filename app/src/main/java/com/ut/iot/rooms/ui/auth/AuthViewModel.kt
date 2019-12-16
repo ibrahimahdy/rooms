@@ -6,6 +6,8 @@ import androidx.lifecycle.MutableLiveData
 import androidx.lifecycle.ViewModel
 import androidx.lifecycle.switchMap
 import com.ut.iot.rooms.api.model.auth.AuthRequest
+import com.ut.iot.rooms.data.model.Resource
+import com.ut.iot.rooms.data.model.UserInfo
 import com.ut.iot.rooms.repo.auth.AuthRepo
 import com.ut.iot.rooms.util.NullLiveData
 import javax.inject.Inject
