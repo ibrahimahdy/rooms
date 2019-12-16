@@ -24,6 +24,7 @@
         android:networkSecurityConfig="@xml/network_security_config"
         android:roundIcon="@mipmap/ic_launcher_round"
         android:supportsRtl="true"
+        android:testOnly="true"
         android:theme="@style/AppTheme" >
         <activity android:name="com.ut.iot.rooms.ui.auth.AuthActivity" >
             <intent-filter>
@@ -32,7 +33,18 @@
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
         </activity>
+        <activity
+            android:name="com.ut.iot.rooms.ui.home.HomeActivity"
+            android:label="@string/title_activity_home" />
+        <activity android:name="com.ut.iot.rooms.ui.home.hotel.detail.HotelDetailActivity" />
+        <activity android:name="com.ut.iot.rooms.ui.home.booking.BookingActivity" />
+        <activity android:name="com.ut.iot.rooms.ui.settings.SettingsActivity" />
 
+        <service android:name="com.ut.iot.rooms.fcm.PushNotificationService" >
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
         <service
             android:name="androidx.room.MultiInstanceInvalidationService"
             android:exported="false" />

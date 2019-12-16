@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
 MERGED from [androidx.legacy:legacy-support-v4:1.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/9456878b2db5b162e871c85afb3921be/legacy-support-v4-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.navigation:navigation-ui-ktx:2.1.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/800ebdb3d83d0bf1430938af966bcec1/navigation-ui-ktx-2.1.0/AndroidManifest.xml:17:1-24:12
 MERGED from [androidx.navigation:navigation-ui:2.1.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/58947f11bb5f8007a1f76f23b3940338/jetified-navigation-ui-2.1.0/AndroidManifest.xml:17:1-24:12
@@ -87,27 +87,27 @@ MERGED from [androidx.localbroadcastmanager:localbroadcastmanager:1.0.0] /Users/
 MERGED from [androidx.print:print:1.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/14a959aa2742bc5a3409c9df680e3706/print-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.interpolator:interpolator:1.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f2c17d77a76df98b14586a770d32b2dc/interpolator-1.0.0/AndroidManifest.xml:17:1-22:12
 MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/38c7fe3560ab1019da929d5c44224700/versionedparcelable-1.1.0/AndroidManifest.xml:17:1-27:12
-INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
-INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
+INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
+INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
 	package
 		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:3:5-31
 		INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml
 		INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml
 	android:versionName
 		INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
 		INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml
 	xmlns:tools
 		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:2:5-51
 	android:versionCode
 		INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml
-		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-27:12
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:1-46:12
 		INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml
 	xmlns:android
 		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:1:11-69
 application
-ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:6:5-26:19
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:6:5-45:19
 MERGED from [com.google.android.material:material:1.2.0-alpha02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/797b036b8b0e8ce2e23d46f5fd6168d6/material-1.2.0-alpha02/AndroidManifest.xml:22:5-20
 MERGED from [com.google.android.material:material:1.2.0-alpha02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/797b036b8b0e8ce2e23d46f5fd6168d6/material-1.2.0-alpha02/AndroidManifest.xml:22:5-20
 MERGED from [com.wdullaer:materialdatetimepicker:4.1.2] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/eac559ab00fe628b69abe8af42ff7341/materialdatetimepicker-4.1.2/AndroidManifest.xml:28:5-20
@@ -184,6 +184,34 @@ ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/Androi
 		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:23:21-60
 	android:name
 		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:22:21-68
+activity#com.ut.iot.rooms.ui.home.HomeActivity
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:27:9-29:59
+	android:label
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:29:13-56
+	android:name
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:28:13-49
+activity#com.ut.iot.rooms.ui.home.hotel.detail.HotelDetailActivity
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:31:9-32:71
+	android:name
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:32:13-69
+activity#com.ut.iot.rooms.ui.home.booking.BookingActivity
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:33:9-34:62
+	android:name
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:34:13-60
+activity#com.ut.iot.rooms.ui.settings.SettingsActivity
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:36:9-37:59
+	android:name
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:37:13-57
+service#com.ut.iot.rooms.fcm.PushNotificationService
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:40:9-44:19
+	android:name
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:40:18-61
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:41:13-43:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:42:17-78
+	android:name
+		ADDED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:42:25-75
 uses-sdk
 INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from /Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml
@@ -398,14 +426,6 @@ ADDED from [com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.grad
 		ADDED from [com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
 	android:name
 		ADDED from [com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
-intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:31:13-33:29
-	android:priority
-		ADDED from [com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:31:28-51
-action#com.google.firebase.MESSAGING_EVENT
-ADDED from [com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:32:17-78
-	android:name
-		ADDED from [com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:32:25-75
 provider#com.squareup.picasso.PicassoProvider
 ADDED from [com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
 	android:authorities

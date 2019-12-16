@@ -27,7 +27,7 @@
 15-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:26:22-79
 16
 17    <application
-17-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:6:5-26:19
+17-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:6:5-45:19
 18        android:name="com.ut.iot.rooms.Rooms"
 18-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:7:9-30
 19        android:allowBackup="true"
@@ -45,149 +45,174 @@
 25-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:12:9-54
 26        android:supportsRtl="true"
 26-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:13:9-35
-27        android:theme="@style/AppTheme" >
-27-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:15:9-40
-28        <activity android:name="com.ut.iot.rooms.ui.auth.AuthActivity" >
-28-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:17:9-25:20
-28-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:17:19-55
-29            <intent-filter>
-29-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:18:13-24:29
-30                <action android:name="android.intent.action.MAIN" />
-30-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:19:17-69
-30-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:19:25-66
-31
-32                <category android:name="android.intent.category.LAUNCHER" />
-32-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:21:17-23:63
-32-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:22:21-68
-33            </intent-filter>
-34        </activity>
-35
-36        <service
-36-->[androidx.room:room-runtime:2.2.2] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/2622f4bcece36aea260671eeee122345/room-runtime-2.2.2/AndroidManifest.xml:25:9-27:40
-37            android:name="androidx.room.MultiInstanceInvalidationService"
-37-->[androidx.room:room-runtime:2.2.2] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/2622f4bcece36aea260671eeee122345/room-runtime-2.2.2/AndroidManifest.xml:26:13-74
-38            android:exported="false" />
-38-->[androidx.room:room-runtime:2.2.2] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/2622f4bcece36aea260671eeee122345/room-runtime-2.2.2/AndroidManifest.xml:27:13-37
-39
-40        <activity
-40-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
-41            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
-41-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
-42            android:excludeFromRecents="true"
-42-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
-43            android:exported="false"
-43-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
-44            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-44-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
-45        <!--
-46            Service handling Google Sign-In user revocation. For apps that do not integrate with
-47            Google Sign-In, this service will never be started.
-48        -->
-49        <service
-49-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
-50            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
-50-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
-51            android:exported="true"
-51-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
-52            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
-52-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
-53        <!--
-54             FirebaseMessagingService performs security checks at runtime,
-55             but set to not exported to explicitly avoid allowing another app to call it.
-56        -->
-57        <service
-57-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
-58            android:name="com.google.firebase.messaging.FirebaseMessagingService"
-58-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
-59            android:exported="false" >
-59-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
-60            <intent-filter android:priority="-500" >
-60-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:31:13-33:29
-60-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:31:28-51
-61                <action android:name="com.google.firebase.MESSAGING_EVENT" />
-61-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:32:17-78
-61-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:32:25-75
-62            </intent-filter>
-63        </service>
-64
-65        <provider
-65-->[com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
-66            android:name="com.squareup.picasso.PicassoProvider"
-66-->[com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
-67            android:authorities="com.ut.iot.rooms.com.squareup.picasso"
-67-->[com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
-68            android:exported="false" />
-68-->[com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
-69
-70        <service
-70-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:29:9-35:19
-71            android:name="com.google.firebase.components.ComponentDiscoveryService"
-71-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:30:13-84
-72            android:directBootAware="true"
-72-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
-73            android:exported="false" >
-73-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:31:13-37
-74            <meta-data
-74-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:32:13-34:85
-75                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
-75-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:33:17-96
-76                android:value="com.google.firebase.components.ComponentRegistrar" />
-76-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:34:17-82
-77        </service>
-78
-79        <receiver
-79-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:37:9-44:20
-80            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
-80-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:38:13-78
-81            android:exported="true"
-81-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:39:13-36
-82            android:permission="com.google.android.c2dm.permission.SEND" >
-82-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:40:13-73
-83            <intent-filter>
-83-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:41:13-43:29
-84                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
-84-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:42:17-81
-84-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:42:25-78
-85            </intent-filter>
-86        </receiver>
-87
-88        <activity
-88-->[com.google.android.gms:play-services-base:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/36d182c4e18cdd6385ed8138fc1f38ff/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
-89            android:name="com.google.android.gms.common.api.GoogleApiActivity"
-89-->[com.google.android.gms:play-services-base:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/36d182c4e18cdd6385ed8138fc1f38ff/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
-90            android:exported="false"
-90-->[com.google.android.gms:play-services-base:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/36d182c4e18cdd6385ed8138fc1f38ff/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
-91            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
-91-->[com.google.android.gms:play-services-base:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/36d182c4e18cdd6385ed8138fc1f38ff/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
-92
-93        <provider
-93-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
-94            android:name="com.google.firebase.provider.FirebaseInitProvider"
-94-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
-95            android:authorities="com.ut.iot.rooms.firebaseinitprovider"
-95-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
-96            android:exported="false"
-96-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
-97            android:initOrder="100" />
-97-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
-98
-99        <meta-data
-99-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/45582cd3a7526e10f68d306e5fe1d9a3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
-100            android:name="com.google.android.gms.version"
-100-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/45582cd3a7526e10f68d306e5fe1d9a3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
-101            android:value="@integer/google_play_services_version" />
-101-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/45582cd3a7526e10f68d306e5fe1d9a3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
-102
-103        <provider
-103-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:25:9-29:43
-104            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
-104-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:26:13-79
-105            android:authorities="com.ut.iot.rooms.lifecycle-process"
-105-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:27:13-69
-106            android:exported="false"
-106-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:28:13-37
-107            android:multiprocess="true" />
-107-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:29:13-40
-108    </application>
-109
-110</manifest>
+27        android:testOnly="true"
+28        android:theme="@style/AppTheme" >
+28-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:15:9-40
+29        <activity android:name="com.ut.iot.rooms.ui.auth.AuthActivity" >
+29-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:17:9-25:20
+29-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:17:19-55
+30            <intent-filter>
+30-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:18:13-24:29
+31                <action android:name="android.intent.action.MAIN" />
+31-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:19:17-69
+31-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:19:25-66
+32
+33                <category android:name="android.intent.category.LAUNCHER" />
+33-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:21:17-23:63
+33-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:22:21-68
+34            </intent-filter>
+35        </activity>
+36        <activity
+36-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:27:9-29:59
+37            android:name="com.ut.iot.rooms.ui.home.HomeActivity"
+37-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:28:13-49
+38            android:label="@string/title_activity_home" />
+38-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:29:13-56
+39        <activity android:name="com.ut.iot.rooms.ui.home.hotel.detail.HotelDetailActivity" />
+39-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:31:9-32:71
+39-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:32:13-69
+40        <activity android:name="com.ut.iot.rooms.ui.home.booking.BookingActivity" />
+40-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:33:9-34:62
+40-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:34:13-60
+41        <activity android:name="com.ut.iot.rooms.ui.settings.SettingsActivity" />
+41-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:36:9-37:59
+41-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:37:13-57
+42
+43        <service android:name="com.ut.iot.rooms.fcm.PushNotificationService" >
+43-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:40:9-44:19
+43-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:40:18-61
+44            <intent-filter>
+44-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:41:13-43:29
+45                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+45-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:42:17-78
+45-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:42:25-75
+46            </intent-filter>
+47        </service>
+48        <service
+48-->[androidx.room:room-runtime:2.2.2] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/2622f4bcece36aea260671eeee122345/room-runtime-2.2.2/AndroidManifest.xml:25:9-27:40
+49            android:name="androidx.room.MultiInstanceInvalidationService"
+49-->[androidx.room:room-runtime:2.2.2] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/2622f4bcece36aea260671eeee122345/room-runtime-2.2.2/AndroidManifest.xml:26:13-74
+50            android:exported="false" />
+50-->[androidx.room:room-runtime:2.2.2] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/2622f4bcece36aea260671eeee122345/room-runtime-2.2.2/AndroidManifest.xml:27:13-37
+51
+52        <activity
+52-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:23:9-27:75
+53            android:name="com.google.android.gms.auth.api.signin.internal.SignInHubActivity"
+53-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:24:13-93
+54            android:excludeFromRecents="true"
+54-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:25:13-46
+55            android:exported="false"
+55-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:26:13-37
+56            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+56-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:27:13-72
+57        <!--
+58            Service handling Google Sign-In user revocation. For apps that do not integrate with
+59            Google Sign-In, this service will never be started.
+60        -->
+61        <service
+61-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:33:9-36:110
+62            android:name="com.google.android.gms.auth.api.signin.RevocationBoundService"
+62-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:34:13-89
+63            android:exported="true"
+63-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:35:13-36
+64            android:permission="com.google.android.gms.auth.api.signin.permission.REVOCATION_NOTIFICATION" />
+64-->[com.google.android.gms:play-services-auth:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f8cf45423f5e64e055b8b0bc70c34531/play-services-auth-17.0.0/AndroidManifest.xml:36:13-107
+65        <!--
+66             FirebaseMessagingService performs security checks at runtime,
+67             but set to not exported to explicitly avoid allowing another app to call it.
+68        -->
+69        <service
+69-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:28:9-34:19
+70            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+70-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:29:13-82
+71            android:exported="false" >
+71-->[com.google.firebase:firebase-messaging:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/bf035cb511f097c316fef4a3854137c4/jetified-firebase-messaging-20.0.1/AndroidManifest.xml:30:13-37
+72            <intent-filter android:priority="-500" >
+72-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:41:13-43:29
+73                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+73-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:42:17-78
+73-->/Users/brasaeed/CodeBlocks/course-work/iot/rooms2/app/src/main/AndroidManifest.xml:42:25-75
+74            </intent-filter>
+75        </service>
+76
+77        <provider
+77-->[com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:8:9-11:40
+78            android:name="com.squareup.picasso.PicassoProvider"
+78-->[com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:9:13-64
+79            android:authorities="com.ut.iot.rooms.com.squareup.picasso"
+79-->[com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:10:13-72
+80            android:exported="false" />
+80-->[com.squareup.picasso:picasso:2.71828] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/3871f853db8f7d4536a87cdac65ef6ad/jetified-picasso-2.71828/AndroidManifest.xml:11:13-37
+81
+82        <service
+82-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:29:9-35:19
+83            android:name="com.google.firebase.components.ComponentDiscoveryService"
+83-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:30:13-84
+84            android:directBootAware="true"
+84-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:15:13-43
+85            android:exported="false" >
+85-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:31:13-37
+86            <meta-data
+86-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:32:13-34:85
+87                android:name="com.google.firebase.components:com.google.firebase.iid.Registrar"
+87-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:33:17-96
+88                android:value="com.google.firebase.components.ComponentRegistrar" />
+88-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:34:17-82
+89        </service>
+90
+91        <receiver
+91-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:37:9-44:20
+92            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+92-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:38:13-78
+93            android:exported="true"
+93-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:39:13-36
+94            android:permission="com.google.android.c2dm.permission.SEND" >
+94-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:40:13-73
+95            <intent-filter>
+95-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:41:13-43:29
+96                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+96-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:42:17-81
+96-->[com.google.firebase:firebase-iid:20.0.1] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/f373fcd7796298c77a06826d5f195395/firebase-iid-20.0.1/AndroidManifest.xml:42:25-78
+97            </intent-filter>
+98        </receiver>
+99
+100        <activity
+100-->[com.google.android.gms:play-services-base:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/36d182c4e18cdd6385ed8138fc1f38ff/play-services-base-17.0.0/AndroidManifest.xml:23:9-26:75
+101            android:name="com.google.android.gms.common.api.GoogleApiActivity"
+101-->[com.google.android.gms:play-services-base:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/36d182c4e18cdd6385ed8138fc1f38ff/play-services-base-17.0.0/AndroidManifest.xml:24:13-79
+102            android:exported="false"
+102-->[com.google.android.gms:play-services-base:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/36d182c4e18cdd6385ed8138fc1f38ff/play-services-base-17.0.0/AndroidManifest.xml:25:13-37
+103            android:theme="@android:style/Theme.Translucent.NoTitleBar" />
+103-->[com.google.android.gms:play-services-base:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/36d182c4e18cdd6385ed8138fc1f38ff/play-services-base-17.0.0/AndroidManifest.xml:26:13-72
+104
+105        <provider
+105-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:19:9-23:39
+106            android:name="com.google.firebase.provider.FirebaseInitProvider"
+106-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:20:13-77
+107            android:authorities="com.ut.iot.rooms.firebaseinitprovider"
+107-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:21:13-72
+108            android:exported="false"
+108-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:22:13-37
+109            android:initOrder="100" />
+109-->[com.google.firebase:firebase-common:19.2.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/6f4b3d2e5ebdc8f92472111053055c45/firebase-common-19.2.0/AndroidManifest.xml:23:13-36
+110
+111        <meta-data
+111-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/45582cd3a7526e10f68d306e5fe1d9a3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:23:9-25:69
+112            android:name="com.google.android.gms.version"
+112-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/45582cd3a7526e10f68d306e5fe1d9a3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:24:13-58
+113            android:value="@integer/google_play_services_version" />
+113-->[com.google.android.gms:play-services-basement:17.0.0] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/45582cd3a7526e10f68d306e5fe1d9a3/jetified-play-services-basement-17.0.0/AndroidManifest.xml:25:13-66
+114
+115        <provider
+115-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:25:9-29:43
+116            android:name="androidx.lifecycle.ProcessLifecycleOwnerInitializer"
+116-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:26:13-79
+117            android:authorities="com.ut.iot.rooms.lifecycle-process"
+117-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:27:13-69
+118            android:exported="false"
+118-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:28:13-37
+119            android:multiprocess="true" />
+119-->[androidx.lifecycle:lifecycle-process:2.2.0-rc02] /Users/brasaeed/.gradle/caches/transforms-2/files-2.1/07b082000b8a69e553e7353913cc93fe/lifecycle-process-2.2.0-rc02/AndroidManifest.xml:29:13-40
+120    </application>
+121
+122</manifest>
