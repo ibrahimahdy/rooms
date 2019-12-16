@@ -18,6 +18,7 @@ import com.ut.iot.rooms.api.model.device.UpdateFCMToken
 import com.ut.iot.rooms.data.BannerMessage
 import com.ut.iot.rooms.data.BannerType
 import com.ut.iot.rooms.data.EventBus
+import com.ut.iot.rooms.data.model.ResourceLoading
 import com.ut.iot.rooms.repo.device.DeviceRepo
 import com.ut.iot.rooms.state.StateManager
 import com.ut.iot.rooms.ui.auth.AuthActivity

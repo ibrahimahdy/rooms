@@ -12,6 +12,7 @@ import com.ut.iot.rooms.api.model.device.Device
 import com.ut.iot.rooms.api.model.device.DeviceRequest
 import com.ut.iot.rooms.api.model.device.DeviceResponse
 import com.ut.iot.rooms.data.EventBus
+import com.ut.iot.rooms.data.model.ResourceLoading
 import com.ut.iot.rooms.ui.BaseActivity
 import com.ut.iot.rooms.ui.home.HomeActivity
 import timber.log.Timber
