@@ -17,7 +17,9 @@ import com.ut.iot.rooms.ui.BaseActivity
 import com.ut.iot.rooms.ui.home.HomeActivity
 import timber.log.Timber
 
-
+/**
+ * Created by Ibrahim on 27/11/2019.
+ */
 class AuthActivity : BaseActivity() {
 
     override fun handleResourceLoading(resourceLoading: ResourceLoading?) {

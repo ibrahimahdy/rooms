@@ -20,6 +20,9 @@ import timber.log.Timber
 import javax.inject.Inject
 
 
+/**
+ * Created by Saeed on 27/11/2019.
+ */
 class SignInFragment : AuthBaseFragment() {
 
     private var authSuccess = false

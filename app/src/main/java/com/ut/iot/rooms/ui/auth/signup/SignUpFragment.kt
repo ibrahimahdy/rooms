@@ -20,7 +20,9 @@ import net.yslibrary.android.keyboardvisibilityevent.util.UIUtil
 import timber.log.Timber
 import javax.inject.Inject
 
-
+/**
+ * Created by Saeed on 27/11/2019.
+ */
 class SignUpFragment : AuthBaseFragment() {
 
     @Inject

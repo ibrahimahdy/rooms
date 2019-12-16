@@ -4,7 +4,9 @@ import android.content.Context
 import com.ut.iot.rooms.R
 import com.ut.iot.rooms.ui.BaseFragment
 
-
+/**
+ * Created by Ibrahim on 27/11/2019.
+ */
 abstract class AuthBaseFragment: BaseFragment() {
 
     lateinit var authActivity: AuthActivity

@@ -6,7 +6,9 @@ import com.ut.iot.rooms.ui.auth.AuthFormState
 import com.ut.iot.rooms.ui.auth.AuthViewModel
 import javax.inject.Inject
 
-
+/**
+ * Created by Saeed on 2019-10-17.
+ */
 class SignInViewModel @Inject constructor(authRepo: AuthRepo) :
     AuthViewModel(authRepo) {
 

@@ -12,7 +12,9 @@ import com.ut.iot.rooms.repo.auth.AuthRepo
 import com.ut.iot.rooms.util.NullLiveData
 import javax.inject.Inject
 
-
+/**
+ * Created by Ibrahim on 2019-10-19.
+ */
 open class AuthViewModel @Inject constructor(private val authRepo: AuthRepo) : ViewModel() {
 
     val _authForm = MutableLiveData<AuthFormState>()
